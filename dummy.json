@@ -1,0 +1,38 @@
+{
+  "update_id": 176756345,
+  "message": {
+    "message_id": 1633,
+    "from": {
+      "id": 594498135,
+      "is_bot": false,
+      "first_name": "Infiee",
+      "username": "the_better_one_of_me",
+      "language_code": "en-us"
+    },
+    "chat": {
+      "id": 594498135,
+      "first_name": "Infiee",
+      "username": "the_better_one_of_me",
+      "type": "private"
+    },
+    "date": 1538721203,
+    "reply_to_message": {
+      "message_id": 1632,
+      "from": {
+        "id": 553882868,
+        "is_bot": true,
+        "first_name": "Insulter dad",
+        "username": "Insulterdadbot"
+      },
+      "chat": {
+        "id": 594498135,
+        "first_name": "Infiee",
+        "username": "the_better_one_of_me",
+        "type": "private"
+      },
+      "date": 1538721195,
+      "text": "Send the new balance for 330959283"
+    },
+    "text": "112.66"
+  }
+}

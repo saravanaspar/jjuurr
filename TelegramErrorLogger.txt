@@ -1,0 +1,258 @@
+============[Date]============
+[ 2018-09-22 21:01:18  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Forward to channel_1
+ref.parse_mode= Html
+ref.disable_web_page_preview= true
+ref.force_reply= true
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(671): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(38): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(57): Telegram->endpoint('sendMessage', Array)
+#3 C:\xampp\htdocs\github\ashu\channel_forward\index.php(88): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2018-09-22 21:01:53  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Forward to channel_1
+ref.parse_mode= Html
+ref.disable_web_page_preview= true
+ref.force_reply= true
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(671): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(38): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(57): Telegram->endpoint('sendMessage', Array)
+#3 C:\xampp\htdocs\github\ashu\channel_forward\index.php(89): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2018-09-22 21:02:45  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		403
+description:		Forbidden: bot can't send messages to bots
+=========[Sent Data]==========
+[ref]
+ref.text= Forward to channel_1
+ref.parse_mode= Html
+ref.disable_web_page_preview= true
+ref.force_reply= true
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(671): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(38): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(57): Telegram->endpoint('sendMessage', Array)
+#3 C:\xampp\htdocs\github\ashu\channel_forward\index.php(90): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2018-09-29 08:24:55  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Your BTC : <code></code>
+ref.parse_mode= Html
+ref.disable_web_page_preview= true
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(671): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(38): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(57): Telegram->endpoint('sendMessage', Array)
+#3 C:\xampp\htdocs\github\ashu\channel_forward\index.php(90): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2018-09-29 08:39:53  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to forward not found
+=========[Sent Data]==========
+[ref]
+ref.from_chat_id= 330959283
+ref.message_id= 
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(671): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(38): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(61): Telegram->endpoint('forwardMessage', Array)
+#3 C:\xampp\htdocs\github\ashu\channel_forward\index.php(104): Telegram->forwardMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2018-10-05 08:31:41  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Send the new balance for 
+ref.parse_mode= Html
+ref.disable_web_page_preview= true
+ref.reply_markup= {"force_reply":true,"selective":false}
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(671): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(38): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(57): Telegram->endpoint('sendMessage', Array)
+#3 C:\xampp\htdocs\github\ashu\channel_forward\index.php(201): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2018-10-05 08:34:01  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Send the new balance for 
+ref.parse_mode= Html
+ref.disable_web_page_preview= true
+ref.reply_markup= {"force_reply":true,"selective":false}
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(671): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(38): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(57): Telegram->endpoint('sendMessage', Array)
+#3 C:\xampp\htdocs\github\ashu\channel_forward\index.php(201): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2018-10-05 08:34:25  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Send the new balance for 
+ref.parse_mode= Html
+ref.disable_web_page_preview= true
+ref.reply_markup= {"force_reply":true,"selective":false}
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(671): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(38): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(57): Telegram->endpoint('sendMessage', Array)
+#3 C:\xampp\htdocs\github\ashu\channel_forward\index.php(202): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2018-10-05 08:34:46  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Send the new balance for 330959283
+ref.parse_mode= Html
+ref.disable_web_page_preview= true
+ref.reply_markup= {"force_reply":true,"selective":false}
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(671): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(38): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(57): Telegram->endpoint('sendMessage', Array)
+#3 C:\xampp\htdocs\github\ashu\channel_forward\index.php(201): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2018-10-05 08:35:13  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Send the new balance for 330959283
+ref.parse_mode= Html
+ref.disable_web_page_preview= true
+ref.reply_markup= {"force_reply":true,"selective":false}
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(671): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(38): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(57): Telegram->endpoint('sendMessage', Array)
+#3 C:\xampp\htdocs\github\ashu\channel_forward\index.php(202): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2018-10-05 08:37:51  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Updation successfull
+ref.parse_mode= Html
+ref.disable_web_page_preview= true
+ref.reply_markup= {"force_reply":true,"selective":false}
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(671): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(38): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(57): Telegram->endpoint('sendMessage', Array)
+#3 C:\xampp\htdocs\github\ashu\channel_forward\index.php(112): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2018-10-05 08:37:53  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= Your Ether : <code></code>
+ref.parse_mode= Html
+ref.disable_web_page_preview= true
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(671): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(38): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\github\ashu\channel_forward\Telegram.php(57): Telegram->endpoint('sendMessage', Array)
+#3 C:\xampp\htdocs\github\ashu\channel_forward\index.php(203): Telegram->sendMessage(Array)
+#4 {main}
+
